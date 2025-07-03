@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(41, 63, 105);
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ceeaec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button {
+    background-color: #215185;
+    color: white;
+    border: 6px rgb(228, 228, 228);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #71a3d8;
+  }
+  
+  .game-stats {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* 4 cards per row */
+    grid-gap: 10px; /* Space between cards */
+    margin-bottom: 20px; /* Space below the game board */
+  }
+  
+  .card {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    background-color: #007bff;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Rounded edges */
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .card.flipped {
+    background-color: white; /* White background when flipped */
+    color: #007bff; /* Change text color to blue */
+    border: 2px solid lightblue; /* Light blue border */
+    transform: rotateY(180deg); /* Optional: Add a flip effect */
+  }
+  
+  .finished-message {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .reset-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  

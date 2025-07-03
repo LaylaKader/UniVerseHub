@@ -1,0 +1,107 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0; /* Added padding to the top and bottom */
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto; /* Center the container */
+    padding: 50px 30px; /* More padding for better design */
+  }
+  
+  .timer-title {
+    font-size: 3rem;
+    color: #007BFF; /* Light blue color */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .timer-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .time-display {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-container label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    width: 70px;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 0 5px;
+    border: 2px solid #007BFF; /* Light blue border */
+    border-radius: 8px;
+  }
+  
+  .buttons-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  .timer-button {
+    background-color: #007BFF; /* Light blue button color */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 150px; /* Same size buttons */
+  }
+  
+  .timer-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .start-button {
+    background-color: #28a745;
+    width: px;
+    height: 60px; /* Green for start */
+  }
+  
+  .start-button:hover {
+    background-color: #218838;
+  }
+  
+  .pause-button {
+    background-color: #ffc107;
+    height: 60px; /* Yellow for pause */
+  }
+  
+  .pause-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .stop-button {
+    background-color: #dc3545;
+    height: 60px; /* Red for stop */
+  }
+  
+  .stop-button:hover {
+    background-color: #c82333;
+  }
+  
