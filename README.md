@@ -1,6 +1,7 @@
 loginInfo:
 admin:
 email: admin@gmail.com  pass:123456789
+User: suma1@gmail.com pass: suma123
 
 
 # UniverseHub
